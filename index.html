@@ -18,6 +18,7 @@
 	<title>IEEE Jadavpur University</title>
 
 	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
 		<!--
 		CSS
 		============================================= -->
@@ -61,11 +62,21 @@
 					  <li class="menu-active"><a href="index.html">Home</a></li>
 					  <li><a href="#about">About</a></li>
 					  <li><a href="#team">Team</a></li>
-					  <li><a href="#events">Events</a></li>
-					  <li><a href="#blog">Blog</a></li>        
+					  <li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbar-menu-container" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Events
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" >
+							<a class="dropdown-item" href="thinkai/index.html" style="padding: 10px 8px 8px 10px; ">Think. AI</a>
+							<a class="dropdown-item" href="mla/index.html" style="padding: 10px 8px 8px 10px; ">ML Accelerator</a>
+							<a class="dropdown-item" href="https://www.ieee-techx.com" style="padding: 10px 8px 8px 10px; ">Tech X</a>
+					</div>
+					</li>
+					  <!--li><a href="#events">Events</a></li-->
+					  <!--li><a href="#blog">Blog</a></li-->        
 					  <li><a href="contact.html">Contact</a></li>
-					  <li><a href="https://ieee-jaduniv.in/thinkai">Think. AI</a></li>
-					  <li><a href="https://ieee-jaduniv.in/mla/">ML Accelerator</a></li>
+					  <!--li><a href="https://ieee-jaduniv.in/thinkai">Think. AI</a></li-->
+					  <!--li><a href="https://ieee-jaduniv.in/mla/">ML Accelerator</a></li-->
 					  <li><a href="#rec">Join Us!</a></li>
 					  <!--<li><a href="elements.html">Elements</a></li>-->
 					</ul>
@@ -615,6 +626,3 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 		<script src="https://www.gstatic.com/firebasejs/5.9.0/firebase-database.js"></script>
 	</body>
 </html>
-
-
-
