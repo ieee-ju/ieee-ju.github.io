@@ -2069,7 +2069,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   padding: 0 8px 0px 8px;
   text-decoration: none;
-  display: inline-block;
+  display: block; /*changed*/
   color: #222;
   font-weight: 400;
   font-size: 12px;
@@ -2151,11 +2151,25 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 18px;
   bottom: 0;
   z-index: 998;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.8) !important;
   left: -260px;
   width: 260px;
   overflow-y: auto;
   transition: 0.4s;
+}
+#mobile-nav div{
+	
+  background: rgba(0, 0, 0, 0.99) !important;
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  overflow: hidden;
+  padding: 10px 22px 10px 15px;
+  position: relative;
+  text-decoration: none;
+  width: 100%;
+  outline: none;
+  font-weight: 700;
 }
 
 #mobile-nav ul {
@@ -2163,6 +2177,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   list-style: none;
 }
+
 
 #mobile-nav ul li {
   position: relative;
