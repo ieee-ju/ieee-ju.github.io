@@ -51,24 +51,46 @@
 							</div>
 					  </div>-->
 					  <div class="container main-menu">
-						  <div class="row align-items-center justify-content-between d-flex">
-							<div id="logo">
-								<a href="index.html"><img src="img/RAW Logo.png" height="30" width="200" alt="" title="" /></a>
-							</div>
-							<nav id="nav-menu-container">
-							  <ul class="nav-menu">
-								<li class="menu-active"><a href="index.html">Home</a></li>
-								<li><a href="index.html#about">About</a></li>
-								<li><a href="#">Team</a></li>
-								<li><a href="projects.html">Events</a></li>
-								<li><a href="blog-home.html">Blog</a></li>        
-								<li><a href="contact.html">Contact</a></li>
-								<li><a href="https://ieee.jaduniv.org/thinkai/">Think. AI</a></li>
-								<!--<li><a href="elements.html">Elements</a></li>-->
-							  </ul>
-							</nav><!-- #nav-menu-container -->		    		
+						<div class="row align-items-center justify-content-between d-flex">
+						  <div id="logo">
+							<a href="index.html"><img src="img/RAW Logo.png" height="30" width="200" alt="" title="" /></a>
 						  </div>
-					  </div>
+						  <nav id="nav-menu-container">
+							<ul class="nav-menu">
+							  <li class="menu-active"><a href="index.html">Home</a></li>
+							  <li><a href="#about">About</a></li>
+							  <li><a href="#team">Team</a></li>
+							  <template>
+							  <li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbar-menu-container" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Events
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" >
+									<a class="dropdown-item" href="thinkai/index.html" style="padding: 10px 8px 8px 10px; ">Think. AI</a>
+									<a class="dropdown-item" href="mla/index.html" style="padding: 10px 8px 8px 10px; ">ML Accelerator</a>
+									<a class="dropdown-item" href="http://www.ieee-techx.com" style="padding: 10px 8px 8px 10px; ">Tech X</a>
+							</div>
+							</li>
+							</template>
+							<li class="menu-has-children"><a href="#events">Events</a>
+								<ul>
+								  <li><a href="thinkai/index.html">Think. AI</a></li>
+								  <li><a href="https://www.facebook.com/events/488126101749927/">Rewired 1.0</a></li>
+								  <li><a href="mla/index.html">ML Accelerator</a></li>
+								  <li><a href="http://www.ieee-techx.com">Tech X</a></li>
+								</ul>
+							  </li>					
+							  <!--li><a href="#events">Events</a></li-->
+							  <!--li><a href="#blog">Blog</a></li-->        
+							  <li><a href="contact.html">Contact</a></li>
+							  <!--li><a href="https://ieee-jaduniv.in/thinkai">Think. AI</a></li-->
+							  <!--li><a href="https://ieee-jaduniv.in/mla/">ML Accelerator</a></li-->
+							  <li><a href="#rec">Join Us!</a></li>
+							  <!--<li><a href="elements.html">Elements</a></li>-->
+							</ul>
+						  </nav><!-- #nav-menu-container -->		    		
+						</div>
+					</div>
 					</header><!-- #header -->
 
 			<!-- start banner Area -->
@@ -94,7 +116,8 @@
 							<div class="col-md-3">
 								<img src="img/techx.jpg" alt="" class="img-fluid">
 								<p>  </p>								
-								<a href="#" class="genric-btn primary circle" style="margin:auto;display:block">Know more</a>
+								<a href="http://www.ieee-techx.com" class="genric-btn primary circle" style="margin:auto;display:block">Know more</a>
+								<p>  </p>
 							</div>
 							<div class="col-md-9 mt-sm-20">
 								<p>RTechX Congress is the Eastern Indian Techno-Management Leadership Summit hosted by the IEEE computer society SYP MGAB in collaboration with two of India’s premier IEEE student chapters - Jadavpur University and NIT Durgapur, where it assimilates all IEEE student members, professionals and student chapters associated with the society. The goal of this congress is to create awareness about the technological advancement in the world along with creating  cultural and technological exchange of ideologies in turn making a step ahead in progress and moulding minds of young students to become the best innovators of the next generation. This includes lectures by reputed researchers and innovators to guide the audience and share their experiences along with bringing bright young minds to light.</p>
@@ -122,6 +145,9 @@
 							</div>
 							<div class="col-md-3">
 								<img src="img/team.jpg" alt="" class="img-fluid">
+								<p>  </p>								
+								<a href="mla/index.html" class="genric-btn primary circle" style="margin:auto;display:block">Know more</a>
+								<p>  </p>
 							</div>
 						</div>
 					</div>
@@ -130,6 +156,9 @@
 						<div class="row">
 							<div class="col-md-3">
 								<img src="img/2.jpg" alt="" class="img-fluid">
+								<p>  </p>								
+								<a href="https://www.facebook.com/events/488126101749927/" class="genric-btn primary circle" style="margin:auto;display:block">Know more</a>
+								<p>  </p>
 							</div>
 							<div class="col-md-9 mt-sm-20">
 								<p>Rewired 1.0 conducted by the IEEE Jadavpur University Student Branch was a Hands-on workshop mainly focused to attract students to learn about the intricacies of Electronics. It was mainly focused to attract students to learn Electronics and understand the practical aspects of it. Though a very complicated topic, students and enthusiasts got to learn how to design Printed Circuit Boards(PCBs) from our teammates experienced in designing Electronic circuits. This event was not only a good learning experience for beginners but was also fun for them. They designed their first-ever Electronic circuit.</p>
@@ -153,6 +182,9 @@
 							</div>
 							<div class="col-md-3">
 								<img src="img/1.jpg" alt="" class="img-fluid">
+								<p>  </p>								
+								<a href="thinkai/index.html" class="genric-btn primary circle" style="margin:auto;display:block">Know more</a>
+								<p>  </p>
 							</div>
 						</div>
 					</div>					
