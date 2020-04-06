@@ -118,7 +118,7 @@ a, a:focus, a:hover {
 
 h1, h2, h3,
 h4, h5, h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Dosis", sans-serif;
   color: #222222;
   line-height: 1.2em !important;
   margin-bottom: 0;
@@ -130,7 +130,7 @@ h4, h5, h6 {
 .h4, .h5, .h6 {
   margin-bottom: 0;
   margin-top: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 600;
   color: #222222;
 }
@@ -2344,7 +2344,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner-area {
-  background: url(../img/ezgif.com-gif-maker.gif) center;
+  background: url(../img/bg_1.jpg) center;
   background-size: cover;
 }
 
