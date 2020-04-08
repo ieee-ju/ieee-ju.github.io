@@ -715,6 +715,23 @@ td, th {
   flex-grow: 1;
 }
 
+.navbar-nav{
+  border:5px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.navbar-nav li{
+  display:inline;
+}
+
+.navbar-nav a{
+  display:inline-block;
+  padding:10px;
+}
+
 .display-table {
   display: table;
 }

@@ -62,6 +62,7 @@
 					  <li class="menu-active"><a href="index.html">Home</a></li>
 					  <li><a href="#about">About</a></li>
 					  <li><a href="#team">Team</a></li>
+					  <template>
 					  <li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="navbar-menu-container" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 					Events
@@ -69,9 +70,18 @@
 					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" >
 							<a class="dropdown-item" href="thinkai/index.html" style="padding: 10px 8px 8px 10px; ">Think. AI</a>
 							<a class="dropdown-item" href="mla/index.html" style="padding: 10px 8px 8px 10px; ">ML Accelerator</a>
-							<a class="dropdown-item" href="https://www.ieee-techx.com" style="padding: 10px 8px 8px 10px; ">Tech X</a>
+							<a class="dropdown-item" href="http://www.ieee-techx.com" style="padding: 10px 8px 8px 10px; ">Tech X</a>
 					</div>
 					</li>
+					</template>
+					<li class="menu-has-children"><a href="#events">Events</a>
+						<ul>
+						  <li><a href="thinkai/index.html">Think. AI</a></li>
+						  <li><a href="https://www.facebook.com/events/488126101749927/">Rewired 1.0</a></li>
+						  <li><a href="mla/index.html">ML Accelerator</a></li>
+						  <li><a href="http://www.ieee-techx.com">Tech X</a></li>
+						</ul>
+					  </li>					
 					  <!--li><a href="#events">Events</a></li-->
 					  <!--li><a href="#blog">Blog</a></li-->        
 					  <li><a href="contact.html">Contact</a></li>
@@ -84,25 +94,107 @@
 				</div>
 			</div>
 		  </header><!-- #header -->
+		  <nav class="navbar navbar-expand-sm bg-light">
 
+			<!-- Links -->
+			<ul class="navbar-nav">
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Link 1</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Link 2</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#">Link 3</a>
+			  </li>
+			</ul>
+		  
+		  </nav>
 		<!-- start banner Area -->
-		<section class="banner-area relative" id="home">
+		<!--<section class="banner-area relative" id="home">
 			<div class="overlay overlay-bg"></div>
 			<div class="container">
 				<div class="row fullscreen d-flex align-items-center justify-content-center">
 					<div class="banner-content col-lg-12 col-md-12">
 						<!--<h6 class="text-uppercase">Don’t look further, here is the key</h6>-->
-						<h1>
+					<!--	<h1>
 							IEEE Jadavpur University			
 						</h1>
 						<p class="text-white">
 								The Jadavpur University IEEE student branch, founded in 2010, belongs to the Kolkata section of Region 10 of the organization.<br> We are a group of enthusiastic students who are promoting innovative ideas both within and outside the campus.
 						</p>
 						<!--<a href="#about" class="primary-btn header-btn text-uppercase">Let's Roll!</a>-->
-					</div>												
+				<!--	</div>												
 				</div>
-			</div>
+			</div>-->
 		</section>
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+			  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+			  <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+			</ol>
+			
+			<nav class="navbar navbar-expand-sm bg-light">
+
+				<!-- Links -->
+				<ul class="navbar-nav">
+				  <li>
+					<a href="https://www.ieee.org/">IEEE Official Website</a>
+				  </li>
+				  <li>
+					<a href="https://ieeexplore.ieee.org/Xplore/home.jsp">IEEE Xplore Digital Library</a>
+				  </li>
+				  <li>
+					<a href="https://standards.ieee.org/">IEEE Standards</a>
+				</li>
+				<li>
+						<a  href="https://spectrum.ieee.org/">IEEE Spectrum</a>
+					</li>
+				<li>
+						<a href="https://www.ieeer10.org/">IEEE Region 10</a>
+					</li>
+						<li>
+						<a href="https://ewh.ieee.org/r10/calcutta/index.html">IEEE Kolkata Section</a>
+					</li>
+						<li>
+				  		<a  href="https://www.ieee.org/sitemap.html">More IEEE sites</a>
+					</li>
+						  <li>
+						<a  href="https://www.ieee.org/membership_services/membership/join/index.html">Join IEEE</a>
+				  </li>
+				</ul>
+			  
+			  </nav>
+			
+			<div class="carousel-inner">
+			  <div class="carousel-item active">
+				<img class="d-block w-100" src="./img/pic1.png" alt="First slide">
+			  </div>
+			  <div class="carousel-item">
+				<img class="d-block w-100" src="./img/pic2.png" alt="Second slide">
+			  </div>
+			  <div class="carousel-item">
+				<img class="d-block w-100" src="./img/pic3.png" alt="Third slide">
+			  </div>
+			  <div class="carousel-item">
+				<img class="d-block w-100" src="./img/pic4.png" alt="Third slide">
+			  </div>
+			  <div class="carousel-item">
+				<img class="d-block w-100" src="./img/pic5.png" alt="Third slide">
+			  </div>
+			</div>
+			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+			  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			  <span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+			  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			  <span class="sr-only">Next</span>
+			</a>
+		  </div>
 		<!-- End banner Area -->
 
 		<!-- Start cat Area -->
@@ -158,6 +250,7 @@
 						</p>
 						<!--<a class="primary-btn" href="about.html">About Student Branch</a><br><br>
 						<a class="primary-btn" href="https://www.ieee.org//">ieee.org</a>-->
+						<a href="https://www.ieee.org/" class="genric-btn primary circle arrow">More about IEEE<span class="lnr lnr-arrow-right"></span></a>
 					</div>
 					<div class="col-lg-4 col-md-12 home-about-right relative" id="ping_section">
 						<form class="form-wrap" onsubmit="return submit_form();">
@@ -313,7 +406,7 @@
 							<div class="circle">
 							  <div class="inner"></div>
 							</div>
-							<h5><span class="counter">27</span></h5>
+							<h5><span class="counter">63</span></h5>
 							<p>
 								Team Members
 							</p>
@@ -324,41 +417,41 @@
 							<div class="circle">
 							  <div class="inner"></div>
 							</div>
-							<h5><span class="counter">3</span></h5>
+							<h5><span class="counter">4</span></h5>
 							<p>
-								Active Projects
+								Branch chapters
 							</p>
 						</div>
 					</div>
-					<!--<div class="col-lg-3 col-md-6">
+					<div class="col-lg-3 col-md-6">
 						<div class="single-faq">
 							<div class="circle">
 							  <div class="inner"></div>
 							</div>
-							<h5 class="counter">959</h5>
+							<h5 class="counter">4</h5>
 							<p>
-								Happy Clients
+								Events
 							</p>
 						</div>
-					</div>-->
-					<!--<div class="col-lg-3 col-md-6">
+					</div>
+					<div class="col-lg-3 col-md-6">
 						<div class="single-faq">
 							<div class="circle">
 							  <div class="inner"></div>
 							</div>
-							<h5 class="counter">367</h5>
+							<h5 class="counter">546</h5>
 							<p>
-								Tickets Submited
+								Participants
 							</p>
 						</div>
-					</div>-->																		
+					</div>																	
 				</div>
-				<div>
+				<!--<div>
 					<p align ="center">
 						<a class="primary-btn" href="#team">Meet our team!</a>
-						<!--https://tympanus.net/Development/HoverEffectIdeas/index2.html-->
+						
 					</p>
-				</div>
+				</div>-->
 			</div>	
 		</section>
 		<!-- End faq Area -->
@@ -489,7 +582,7 @@
 		<section class="blog-area section-gap" id="blog">
 			<div class="container">
 				<div class="row justify-content-center">
-					<div class="col-md-12 pb-30 header-text">
+					<div class="col-md-12 pb-25 header-text">
 						<h1>Blog</h1>
 						<!--<p>
 							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> labore  et dolore magna aliqua.
@@ -624,5 +717,10 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 		  firebase.initializeApp(config);
 		</script>
 		<script src="https://www.gstatic.com/firebasejs/5.9.0/firebase-database.js"></script>
+
+		<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="b7456f7f-1b65-4356-bccb-977427ce1d06";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+
+
+
 	</body>
 </html>
