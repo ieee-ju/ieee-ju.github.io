@@ -32,133 +32,91 @@
 		<link rel="stylesheet" href="css/owl.carousel.css">
 		<link rel="stylesheet" href="css/main.css">
 	</head>
-	<body>	
-		  <header id="header" id="home">
-			  <!--<div class="header-top">
-				  <div class="container">
-					  <div class="row">
-						  <div class="col-lg-6 col-sm-6 col-4 header-top-left no-padding">
-							  <ul>
-								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-								<li><a href="#"><i class="fa fa-behance"></i></a></li>
-							  </ul>
-						  </div>
-						  <div class="col-lg-6 col-sm-6 col-8 header-top-right no-padding">
-							  <a href="tel:+880 012 3654 896">Contact Number</a>
-							  <a href="mailto:mainakpal@ieee.org">Email</a>				
-						  </div>
-					  </div>			  					
-				  </div>
-			</div>-->
-			<div class="container main-menu">
-				<div class="row align-items-center justify-content-between d-flex">
-				  <div id="logo">
-					<a href="index.html"><img src="img/RAW Logo.png" height="30" width="200" alt="" title="" /></a>
-				  </div>
-				  <nav id="nav-menu-container">
-					<ul class="nav-menu">
-					  <li class="menu-active"><a href="index.html">Home</a></li>
-					  <li><a href="#about">About</a></li>
-					  <li><a href="#team">Team</a></li>
-					  <template>
-					  <li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbar-menu-container" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					Events
-					</a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" >
-							<a class="dropdown-item" href="thinkai/index.html" style="padding: 10px 8px 8px 10px; ">Think. AI</a>
-							<a class="dropdown-item" href="mla/index.html" style="padding: 10px 8px 8px 10px; ">ML Accelerator</a>
-							<a class="dropdown-item" href="http://www.ieee-techx.com" style="padding: 10px 8px 8px 10px; ">Tech X</a>
-					</div>
-					</li>
-					</template>
-					<li class="menu-has-children"><a href="#events">Events</a>
-						<ul>
-						  <li><a href="thinkai/index.html">Think. AI</a></li>
-						  <li><a href="https://www.facebook.com/events/488126101749927/">Rewired 1.0</a></li>
-						  <li><a href="mla/index.html">ML Accelerator</a></li>
-						  <li><a href="http://www.ieee-techx.com">Tech X</a></li>
-						</ul>
-					  </li>					
-					  <!--li><a href="#events">Events</a></li-->
-					  <!--li><a href="#blog">Blog</a></li-->        
-					  <li><a href="contact.html">Contact</a></li>
-					  <!--li><a href="https://ieee-jaduniv.in/thinkai">Think. AI</a></li-->
-					  <!--li><a href="https://ieee-jaduniv.in/mla/">ML Accelerator</a></li-->
-					  <li><a href="#rec">Join Us!</a></li>
-					  <!--<li><a href="elements.html">Elements</a></li>-->
-					</ul>
-				  </nav><!-- #nav-menu-container -->		    		
-				</div>
+	<body>
+		<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+			<div id="logo">
+				<a href="index.html"><img src="img/RAW Logo.png" height="30" width="200" alt="ieee-logo" /></a>
 			</div>
-		  </header><!-- #header -->
-		 <!-- <nav class="navbar navbar-expand-sm bg-light">
-
-			 Links -->
-		<!--	<ul class="navbar-nav">
-			  <li class="nav-item">
-				<a class="nav-link" href="#">Link 1</a>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link" href="#">Link 2</a>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link" href="#">Link 3</a>
-			  </li>
-			</ul>
-		-->
-		  </nav>
-		  nav class="navbar navbar-expand-sm bg-light">
-
-				<!-- Links -->
-				<ul class="navbar-nav">
-				  <li>
-					<a href="https://www.ieee.org/">IEEE Official Website</a>
-				  </li>
-				  <li>
-					<a href="https://ieeexplore.ieee.org/Xplore/home.jsp">IEEE Xplore Digital Library</a>
-				  </li>
-				  <li>
-					<a href="https://standards.ieee.org/">IEEE Standards</a>
-				</li>
-				<li>
+			<div class="navbar-toggler-right">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse flex-column" id="navbar">
+				<ul class="navbar-nav w-100 justify-content-end align-items-center px-1">
+					<li class="menu-active">
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="#about">About</a>
+					</li>
+					<li>
+						<a href="#team">Team</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Events
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" >
+							<a class="dropdown-item" href="thinkai/index.html">Think. AI</a>
+							<a class="dropdown-item" href="mla/index.html">ML Accelerator</a>
+							<a class="dropdown-item" href="http://www.ieee-techx.com">Tech X</a>
+						</div>
+					</li>
+					<li>
+						<a href="contact.html">Contact</a>
+					</li>
+					<li>
+						<a href="#rec">Join Us!</a>
+					</li>
+					
+				</ul>
+				<ul class="navbar-nav justify-content-end align-items-center w-100 bg-light px-1">
+					<li>
+						<a href="https://www.ieee.org/">IEEE Official Website</a>
+					</li>
+					<li>
+						<a href="https://ieeexplore.ieee.org/Xplore/home.jsp">IEEE Xplore Digital Library</a>
+					</li>
+					<li>
+						<a href="https://standards.ieee.org/">IEEE Standards</a>
+					</li>
+					<li>
 						<a  href="https://spectrum.ieee.org/">IEEE Spectrum</a>
 					</li>
-				<li>
+					<li>
 						<a href="https://www.ieeer10.org/">IEEE Region 10</a>
 					</li>
-						<li>
+					<li>
 						<a href="https://ewh.ieee.org/r10/calcutta/index.html">IEEE Kolkata Section</a>
 					</li>
-						<li>
-				  		<a  href="https://www.ieee.org/sitemap.html">More IEEE sites</a>
+					<li>
+						<a  href="https://www.ieee.org/sitemap.html">More IEEE sites</a>
 					</li>
-						  <li>
+					<li>
 						<a  href="https://www.ieee.org/membership_services/membership/join/index.html">Join IEEE</a>
-				  </li>
+					</li>
 				</ul>
-			  
-			  </nav>
+			</div>
+		</nav>
 		<!-- start banner Area -->
-		<!--<section class="banner-area relative" id="home">
+		<!-- <section class="banner-area relative" id="home">
 			<div class="overlay overlay-bg"></div>
 			<div class="container">
 				<div class="row fullscreen d-flex align-items-center justify-content-center">
 					<div class="banner-content col-lg-12 col-md-12">
-						<!--<h6 class="text-uppercase">Don’t look further, here is the key</h6>-->
-					<!--	<h1>
+						<h6 class="text-uppercase">Don’t look further, here is the key</h6>
+						<h1>
 							IEEE Jadavpur University			
 						</h1>
 						<p class="text-white">
 								The Jadavpur University IEEE student branch, founded in 2010, belongs to the Kolkata section of Region 10 of the organization.<br> We are a group of enthusiastic students who are promoting innovative ideas both within and outside the campus.
 						</p>
-						<!--<a href="#about" class="primary-btn header-btn text-uppercase">Let's Roll!</a>-->
-				<!--	</div>												
+						<a href="#about" class="primary-btn header-btn text-uppercase">Let's Roll!</a>
+					</div>												
 				</div>
-			</div>-->
-		</section>
+			</div>
+		</section> -->
 		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 			<ol class="carousel-indicators">
 			  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
