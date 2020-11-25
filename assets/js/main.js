@@ -244,10 +244,27 @@
     //Night-mode-toggle
     $(" .icofont-moon").click(function () {
         $("body").addClass("dark-mode");
+        $(" #header" ).css( "background","#212529" );
+        $(" .featured-services .icon-box").css( "background","#212529" );
+        $(" .contact .info-box").css( "box-shadow","0 0 20px rgba(2,2,2,0.5)" );
+        //$(" .contact .info-box").css( "background","rgb(27 33 39)" );
+        $(" .contact .php-email-form").css( "box-shadow","0 0 20px rgba(2,2,2,0.5)" );
+        $(" .contact .php-email-form input").css({"background":"#212529","border-color":"#212529"});
+        $(" .contact .php-email-form textarea").css({"background":"#212529","border-color":"#212529"});
+        $(" .services" ).css( "background-color","rgb(43 49 53 / 70%)" );
+        $(" .collaborators" ).css( "background-color","#1b252d" );
     });
 
     $(" .icofont-sun-alt").click(function () {
         $("body").removeClass("dark-mode");
+        $(" #header" ).css( "background","#fff" );
+        $(" .featured-services .icon-box").css( "background","#fff" );
+        $(" .contact .info-box").css( "box-shadow","0 0 20px rgba(214, 215, 216, 0.5)" );
+        $(" .contact .php-email-form").css( "box-shadow","0 0 20px rgba(214, 215, 216, 0.5)" );
+        $(" .contact .php-email-form input").css({"background":"none","border-color":"#AAA"});
+        $(" .contact .php-email-form textarea").css({"background":"none","border-color":"#AAA"});
+        $(" .services" ).css( "background-color","rgba(255, 255, 255, 0.7)" );
+        $(" .collaborators" ).css( "background-color","#f0f0f0" );
     });
 
 
