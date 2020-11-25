@@ -244,7 +244,7 @@
     //Night-mode-toggle
     $(" .icofont-moon").click(function () {
         $("body").addClass("dark-mode");
-        $(" #header" ).css( "background","#212529" );
+        $(" #header" ).css( "background","#131920" );
         $(" .featured-services .icon-box").css( "background","#212529" );
         $(" .contact .info-box").css( "box-shadow","0 0 20px rgba(2,2,2,0.5)" );
         //$(" .contact .info-box").css( "background","rgb(27 33 39)" );
@@ -253,6 +253,7 @@
         $(" .contact .php-email-form textarea").css({"background":"#212529","border-color":"#212529"});
         $(" .services" ).css( "background-color","rgb(43 49 53 / 70%)" );
         $(" .collaborators" ).css( "background-color","#1b252d" );
+        $(" .slide img" ).css( "filter","contrast(60%) brightness(100%)" );
     });
 
     $(" .icofont-sun-alt").click(function () {
@@ -265,6 +266,7 @@
         $(" .contact .php-email-form textarea").css({"background":"none","border-color":"#AAA"});
         $(" .services" ).css( "background-color","rgba(255, 255, 255, 0.7)" );
         $(" .collaborators" ).css( "background-color","#f0f0f0" );
+        $(" .slide img" ).css( "filter","contrast(0%) brightness(1000%)" );
     });
 
 
