@@ -79,12 +79,13 @@
         $('body').prepend('<button type="button" class="mobile-nav-toggle d-lg-none"><i class="icofont-navigation-menu"></i></button>');
         $('body').append('<div class="mobile-nav-overly"></div>');
 
-        $(' .night li').css("display", "block");
+        
 
         $(document).on('click', '.mobile-nav-toggle', function (e) {
             $('body').toggleClass('mobile-nav-active');
             $('.mobile-nav-toggle i').toggleClass('icofont-navigation-menu icofont-close');
             $('.mobile-nav-overly').toggle();
+            $(' .night').css("display", "block");
 
         });
 
@@ -101,13 +102,14 @@
                     $('body').removeClass('mobile-nav-active');
                     $('.mobile-nav-toggle i').toggleClass('icofont-navigation-menu icofont-close');
                     $('.mobile-nav-overly').fadeOut();
+                    
                 }
             }
         });
 
 
     } else if ($(".mobile-nav, .mobile-nav-toggle").length) {
-        $(".mobile-nav, .mobile-nav-toggle").hide();
+        $(".mobile-nav, .mobile-nav-toggle").hide();  
     }
 
     // Toggle .header-scrolled class to #header when page is scrolled
@@ -150,6 +152,9 @@
             } else {
                 $(".slide img").attr("src", "assets/img/sb1.png");
             }
+            // dark mode logo disappear 
+            $(' .night').css("display", "none");
+            
         });
     });
 
@@ -290,7 +295,7 @@
     });
 
     var dark_toggle = localStorage['myKey'];
-    console.log(dark_toggle);
+    //console.log(dark_toggle);
 
     $(window).on('load', function () {
         if (dark_toggle == 1) {
