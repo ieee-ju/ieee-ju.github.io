@@ -269,6 +269,9 @@
         localStorage['myKey'] = '1';
         $("body").addClass("dark-mode");
         $(" #header").css("background", "#131920");
+        //$(" #preloader").css("background", "#111");
+        //$(" #preloader:beforer").css("border-top-color", "#111");
+        $(" .mobile-nav").css("background", "#131920");
         $(" .featured-services .icon-box").css("background", "#212529");
         $(" .contact .info-box").css("box-shadow", "0 0 20px rgba(2,2,2,0.5)");
         //$(" .contact .info-box").css( "background","rgb(27 33 39)" );
@@ -284,6 +287,9 @@
         localStorage['myKey'] = '0';
         $("body").removeClass("dark-mode");
         $(" #header").css("background", "#fff");
+        //$(" #preloader").css("background", "#fff");
+        //$(" #preloader:beforer").css("border-top-color", " #ecf8f9");
+        $(" .mobile-nav").css("background", "#fff");
         $(" .featured-services .icon-box").css("background", "#fff");
         $(" .contact .info-box").css("box-shadow", "0 0 20px rgba(214, 215, 216, 0.5)");
         $(" .contact .php-email-form").css("box-shadow", "0 0 20px rgba(214, 215, 216, 0.5)");
@@ -301,6 +307,9 @@
         if (dark_toggle == 1) {
             $("body").addClass("dark-mode");
             $(" #header").css("background", "#131920");
+            //$(" #preloader").css("background", "#111");
+            //$(" #preloader:beforer").css("border-top-color", "#111");
+            $(" .mobile-nav").css("background", "#131920");
             $(" .featured-services .icon-box").css("background", "#212529");
             $(" .contact .info-box").css("box-shadow", "0 0 20px rgba(2,2,2,0.5)");
             //$(" .contact .info-box").css( "background","rgb(27 33 39)" );
