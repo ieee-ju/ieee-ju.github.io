@@ -133,7 +133,7 @@
 
             var ratio = width / height;
             //console.log(ratio);
-            if (ratio <= 0.56) {
+            if (ratio <= 0.57) {
                 $(".slide img").attr("src", "assets/img/mob_jumbo.png");
             } else {
                 $(".slide img").attr("src", "assets/img/sb1.png");
@@ -145,7 +145,7 @@
 
             var ratio = width / height;
             //console.log(ratio);
-            if (ratio <= 0.56) {
+            if (ratio <= 0.57) {
                 $(".slide img").attr("src", "assets/img/mob_jumbo.png");
             } else {
                 $(".slide img").attr("src", "assets/img/sb1.png");
