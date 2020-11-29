@@ -1,5 +1,5 @@
 !(function ($) {
-    "use strict";
+    "use strict"; 
 
     // Smooth scroll for the navigation menu and links with .scrollto classes
     var scrolltoOffset = $('#header').outerHeight() - 1;
@@ -269,6 +269,7 @@
         localStorage['myKey'] = '1';
         $("body").addClass("dark-mode");
         $(" #header").css("background", "#131920");
+        
         //$(" #preloader").css("background", "#111");
         //$(" #preloader:beforer").css("border-top-color", "#111");
         $(" .mobile-nav").css("background", "#131920");
@@ -287,6 +288,7 @@
         localStorage['myKey'] = '0';
         $("body").removeClass("dark-mode");
         $(" #header").css("background", "#fff");
+    
         //$(" #preloader").css("background", "#fff");
         //$(" #preloader:beforer").css("border-top-color", " #ecf8f9");
         $(" .mobile-nav").css("background", "#fff");
