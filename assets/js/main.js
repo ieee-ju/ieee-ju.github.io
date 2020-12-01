@@ -193,8 +193,8 @@
 
     // Preloader
     $(window).on('load', function () {
-        if ($('#preloader').length) {
-            $('#preloader').delay(100).fadeOut('slow', function () {
+        if ($('#preloader1').length) {
+            $('#preloader1').delay(100).fadeOut('slow', function () {
                 $(this).remove();
             });
         }
@@ -286,8 +286,7 @@
         $(" .event .card-body").css({"background": "#212529","color":"rgb(105, 105, 108)"});
         $(" .event .card-footer").css("background", "#131920");
         $(" .event  .card").css("background", "#212529");
-        //thanks.html
-        //$(" #site-footer").css("background", "#202b35");
+        
     });
 
     $(" .icofont-sun-alt").click(function () {
