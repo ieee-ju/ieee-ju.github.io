@@ -282,8 +282,12 @@
         $(" .services").css("background-color", "rgb(43 49 53 / 70%)");
         $(" .collaborators").css("background-color", "#1b252d");
         $(" .slide img").css("filter", "contrast(60%) brightness(100%)");
-        $(" .event .card-body").css({"background": "#212529","color":"#555"});
+        //event page
+        $(" .event .card-body").css({"background": "#212529","color":"rgb(105, 105, 108)"});
         $(" .event .card-footer").css("background", "#131920");
+        $(" .event  .card").css("background", "#212529");
+        //thanks.html
+        //$(" #site-footer").css("background", "#202b35");
     });
 
     $(" .icofont-sun-alt").click(function () {
@@ -304,6 +308,8 @@
         $(" .slide img").css("filter", "contrast(0%) brightness(1000%)");
         $(" .event .card-body").css("background", "#fff");
         $(" .event .card-footer").css("background", "rgba(0,0,0,.03)");
+        $(" .event  .card").css("background", "#fff");
+        
     });
 
     var dark_toggle = localStorage['myKey'];
@@ -325,8 +331,9 @@
             $(" .services").css("background-color", "rgb(43 49 53 / 70%)");
             $(" .collaborators").css("background-color", "#1b252d");
             $(" .slide img").css("filter", "contrast(60%) brightness(100%)");
-            $(" .event .card-body").css({"background": "#212529","color":"#666"});
+            $(" .event .card-body").css({"background": "#212529","color":"rgb(105, 105, 108)"});
             $(" .event .card-footer").css("background", "#131920");
+            $(" .event  .card").css("background", "#212529");
         }
     });
 

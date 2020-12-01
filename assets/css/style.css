@@ -44,7 +44,7 @@ i:hover {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #fff;
+  background: rgb(3, 3, 3);
 }
 
 #preloader:before {
@@ -53,7 +53,7 @@ i:hover {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #0066a1;
-  border-top-color: #ecf8f9;
+  border-top-color: #0e0f0f;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -2101,3 +2101,15 @@ section {
   max-height: 40px;
   filter: contrast(0%) brightness(1000%);
 }
+
+/******Event********/
+.event  .card-img, .card-img-top{
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 20%;
+}
+
+.event .card{
+  border-radius: .7rem;
+  border: 2px solid rgba(3, 30, 87, 0.671)!important;
+}
+
