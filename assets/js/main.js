@@ -303,6 +303,7 @@
         $(" .collaborators").css("background-color", "#f0f0f0");
         $(" .slide img").css("filter", "contrast(0%) brightness(1000%)");
         $(" .event .card-body").css("background", "#fff");
+        $(" .event .card-footer").css("background", "rgba(0,0,0,.03)");
     });
 
     var dark_toggle = localStorage['myKey'];
