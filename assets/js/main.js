@@ -193,8 +193,8 @@
 
     // Preloader
     $(window).on('load', function () {
-        if ($('#preloader1').length) {
-            $('#preloader1').delay(100).fadeOut('slow', function () {
+        if ($('#preloader').length) {
+            $('#preloader').delay(100).fadeOut('slow', function () {
                 $(this).remove();
             });
         }

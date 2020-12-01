@@ -96,7 +96,7 @@ i:hover {
 #preloader1 .pre-img{
  justify-content: center;
  display: inline-flex;
- 
+ -webkit-animation: animate-preloader1;
  animation-name: animate-preloader1; 
  animation-duration: 2s;
  animation-iteration-count: infinite;
