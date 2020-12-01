@@ -282,6 +282,8 @@
         $(" .services").css("background-color", "rgb(43 49 53 / 70%)");
         $(" .collaborators").css("background-color", "#1b252d");
         $(" .slide img").css("filter", "contrast(60%) brightness(100%)");
+        $(" .event .card-body").css({"background": "#212529","color":"#555"});
+        $(" .event .card-footer").css("background", "#131920");
     });
 
     $(" .icofont-sun-alt").click(function () {
@@ -300,6 +302,7 @@
         $(" .services").css("background-color", "rgba(255, 255, 255, 0.7)");
         $(" .collaborators").css("background-color", "#f0f0f0");
         $(" .slide img").css("filter", "contrast(0%) brightness(1000%)");
+        $(" .event .card-body").css("background", "#fff");
     });
 
     var dark_toggle = localStorage['myKey'];
@@ -321,11 +324,10 @@
             $(" .services").css("background-color", "rgb(43 49 53 / 70%)");
             $(" .collaborators").css("background-color", "#1b252d");
             $(" .slide img").css("filter", "contrast(60%) brightness(100%)");
+            $(" .event .card-body").css({"background": "#212529","color":"#666"});
+            $(" .event .card-footer").css("background", "#131920");
         }
     });
-
-
-
 
 
 })(jQuery);
