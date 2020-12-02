@@ -287,7 +287,8 @@
         $(" .event .card-body").css({ "background": "#212529", "color": "rgb(105, 105, 108)" });
         $(" .event .card-footer").css("background", "#131920");
         $(" .event  .card").css("background", "#212529");
-        $(" .services .title a").css("color", "#ffffff");
+        $(" .services .title a").css("color", "#cccccc");
+        $(" .team4 h5").css("color", "#ffffff");
 
     });
 
@@ -311,6 +312,7 @@
         $(" .event .card-footer").css("background", "rgba(0,0,0,.03)");
         $(" .event  .card").css("background", "#fff");
         $(" .services .title a").css("color", "#000000");
+        $(" .team4 h5").css("color", "#000000");
 
     });
 
@@ -336,7 +338,8 @@
             $(" .event .card-body").css({ "background": "#212529", "color": "rgb(105, 105, 108)" });
             $(" .event .card-footer").css("background", "#131920");
             $(" .event  .card").css("background", "#212529");
-            $(" .services .title a").css("color", "#ffffff");
+            $(" .services .title a").css("color", "#cccccc");
+            $(" .team4 h5").css("color", "#ffffff");
         }
     });
 
