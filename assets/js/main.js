@@ -1,5 +1,5 @@
 !(function ($) {
-    "use strict"; 
+    "use strict";
 
     // Smooth scroll for the navigation menu and links with .scrollto classes
     var scrolltoOffset = $('#header').outerHeight() - 1;
@@ -79,7 +79,7 @@
         $('body').prepend('<button type="button" class="mobile-nav-toggle d-lg-none"><i class="icofont-navigation-menu"></i></button>');
         $('body').append('<div class="mobile-nav-overly"></div>');
 
-        
+
 
         $(document).on('click', '.mobile-nav-toggle', function (e) {
             $('body').toggleClass('mobile-nav-active');
@@ -102,14 +102,14 @@
                     $('body').removeClass('mobile-nav-active');
                     $('.mobile-nav-toggle i').toggleClass('icofont-navigation-menu icofont-close');
                     $('.mobile-nav-overly').fadeOut();
-                    
+
                 }
             }
         });
 
 
     } else if ($(".mobile-nav, .mobile-nav-toggle").length) {
-        $(".mobile-nav, .mobile-nav-toggle").hide();  
+        $(".mobile-nav, .mobile-nav-toggle").hide();
     }
 
     // Toggle .header-scrolled class to #header when page is scrolled
@@ -129,17 +129,17 @@
 
     // Carousel Jumbrotorn image toggle
     $(document).ready(function () {
-        
-        var width = $(window).width();
-            var height = $(window).height();
 
-            var ratio = width / height;
-            //console.log(ratio);
-            if (ratio <= 0.57) {
-                $(".slide img").attr("src", "assets/img/mob_jumbo.png");
-            } else {
-                $(".slide img").attr("src", "assets/img/sb1.png");
-            }
+        var width = $(window).width();
+        var height = $(window).height();
+
+        var ratio = width / height;
+        //console.log(ratio);
+        if (ratio <= 0.57) {
+            $(".slide img").attr("src", "assets/img/mob_jumbo.png");
+        } else {
+            $(".slide img").attr("src", "assets/img/sb1.png");
+        }
         //dynamic jumbotron change
         $(window).resize(function () {
             var width = $(window).width();
@@ -154,7 +154,7 @@
             }
             // dark mode logo disappear 
             $(' .night').css("display", "none");
-            
+
         });
     });
 
@@ -193,11 +193,12 @@
 
     // Preloader
     $(window).on('load', function () {
-        if ($('#preloader').length) {
-            $('#preloader').delay(100).fadeOut('slow', function () {
+        if ($('#preloader1').length) {
+            $('#preloader1').delay(100).fadeOut('slow', function () {
                 $(this).remove();
             });
         }
+
     });
 
     // jQuery counterUp
@@ -269,7 +270,7 @@
         localStorage['myKey'] = '1';
         $("body").addClass("dark-mode");
         $(" #header").css("background", "#131920");
-        
+
         //$(" #preloader").css("background", "#111");
         //$(" #preloader:beforer").css("border-top-color", "#111");
         $(" .mobile-nav").css("background", "#131920");
@@ -283,17 +284,17 @@
         $(" .collaborators").css("background-color", "#1b252d");
         $(" .slide img").css("filter", "contrast(60%) brightness(100%)");
         //event page
-        $(" .event .card-body").css({"background": "#212529","color":"rgb(105, 105, 108)"});
+        $(" .event .card-body").css({ "background": "#212529", "color": "rgb(105, 105, 108)" });
         $(" .event .card-footer").css("background", "#131920");
         $(" .event  .card").css("background", "#212529");
-        
+
     });
 
     $(" .icofont-sun-alt").click(function () {
         localStorage['myKey'] = '0';
         $("body").removeClass("dark-mode");
         $(" #header").css("background", "#fff");
-    
+
         //$(" #preloader").css("background", "#fff");
         //$(" #preloader:beforer").css("border-top-color", " #ecf8f9");
         $(" .mobile-nav").css("background", "#fff");
@@ -308,7 +309,7 @@
         $(" .event .card-body").css("background", "#fff");
         $(" .event .card-footer").css("background", "rgba(0,0,0,.03)");
         $(" .event  .card").css("background", "#fff");
-        
+
     });
 
     var dark_toggle = localStorage['myKey'];
@@ -330,7 +331,7 @@
             $(" .services").css("background-color", "rgb(43 49 53 / 70%)");
             $(" .collaborators").css("background-color", "#1b252d");
             $(" .slide img").css("filter", "contrast(60%) brightness(100%)");
-            $(" .event .card-body").css({"background": "#212529","color":"rgb(105, 105, 108)"});
+            $(" .event .card-body").css({ "background": "#212529", "color": "rgb(105, 105, 108)" });
             $(" .event .card-footer").css("background", "#131920");
             $(" .event  .card").css("background", "#212529");
         }
