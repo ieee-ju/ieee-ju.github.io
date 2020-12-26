@@ -1626,6 +1626,17 @@ section {
   font-size: 18px;
 }
 
+.team4 h1,
+.team4 h2,
+.team4 h3,
+.team4 h4,
+.team4 h5,
+.team4 h6 .subtitle-main {
+  color: #a2a8af;
+  line-height: 24px;
+  font-size: 20px;
+}
+
 .team4 .subtitle {
   color: #8d97ad;
   line-height: 24px;
