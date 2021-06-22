@@ -2171,3 +2171,54 @@ section {
   border-radius: 0.7rem;
   border: 2px solid rgba(3, 30, 87, 0.671) !important;
 }
+
+.event button {
+  width: 40%;
+  display:block;
+  padding: 3% 8% 3%  8%;
+  background-color: #0066a1;
+  border-radius: 6px;
+  position:relative;
+  left:50%;
+  
+  transform: translate(-50%,0);
+  padding-left:5%;
+  padding-right: 5%;
+  text-align: center;
+  transition-duration:  0.5s ease-in;
+  transition-delay: 0.3s;
+  transition:width 0.5s ;
+  cursor: pointer;
+  outline:none;
+  border:none;
+  font-size: medium;
+  -webkit-transform: translate(-50%,0);
+  -moz-transform: translate(-50%,0);
+  -ms-transform: translate(-50%,0);
+  -o-transform: translate(-50%,0);
+}
+
+.event a {
+  color:white;
+}
+
+
+.event button:hover {
+  background-color:#65c9cd ;
+  color:white;
+  width: 52%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.event button:focus{
+  outline:0 !important; 
+  box-shadow: none !important;
+}
+
+ 
+  
+

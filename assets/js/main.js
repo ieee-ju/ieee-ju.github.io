@@ -287,6 +287,8 @@
         $(" .event .card-body").css({ "background": "#212529", "color": "rgb(105, 105, 108)" });
         $(" .event .card-footer").css("background", "#131920");
         $(" .event  .card").css("background", "#212529");
+        $(".event button").css({"background" : "#131920"} );
+        $(".event button a").css("color" , "rgb(105, 105, 108)");
         $(" .services .title a").css("color", "#cccccc");
         $(" .team4 h5").css("color", "#ffffff");
 
@@ -311,6 +313,9 @@
         $(" .event .card-body").css("background", "#fff");
         $(" .event .card-footer").css("background", "rgba(0,0,0,.03)");
         $(" .event  .card").css("background", "#fff");
+        
+        $(".event button").css({"background-color" : ""} );
+        $(".event button a").css("color" , "");
         $(" .services .title a").css("color", "#000000");
         $(" .team4 h5").css("color", "#000000");
 
@@ -338,6 +343,8 @@
             $(" .event .card-body").css({ "background": "#212529", "color": "rgb(105, 105, 108)" });
             $(" .event .card-footer").css("background", "#131920");
             $(" .event  .card").css("background", "#212529");
+            $(".event button").css({"background" : "#131920"} );
+            $(".event button a").css("color" , "rgb(105, 105, 108)");
             $(" .services .title a").css("color", "#cccccc");
             $(" .team4 h5").css("color", "#ffffff");
         }
