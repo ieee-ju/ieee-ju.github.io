@@ -2163,6 +2163,8 @@ section {
 /******Event********/
 .event .card-img,
 .card-img-top {
+  border-top-left-radius : 0.7rem;
+  border-top-right-radius : 0.7rem;
   border-bottom-right-radius: 50%;
   border-bottom-left-radius: 20%;
 }
