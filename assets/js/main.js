@@ -291,6 +291,7 @@
         $(".event button a").css("color" , "rgb(105, 105, 108)");
         $(" .services .title a").css("color", "#cccccc");
         $(" .team4 h5").css("color", "#ffffff");
+        $(".btn-floating i").css("color", "#ffffff");
 
     });
 
@@ -318,6 +319,7 @@
         $(".event button a").css("color" , "");
         $(" .services .title a").css("color", "#000000");
         $(" .team4 h5").css("color", "#000000");
+        $(".btn-floating i").css("color", "#444444");
 
     });
 
@@ -347,6 +349,7 @@
             $(".event button a").css("color" , "rgb(105, 105, 108)");
             $(" .services .title a").css("color", "#cccccc");
             $(" .team4 h5").css("color", "#ffffff");
+            $(".btn-floating i").css("color", "#ffffff");
         }
     });
 
