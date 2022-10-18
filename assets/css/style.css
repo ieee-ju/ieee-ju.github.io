@@ -2174,6 +2174,10 @@ section {
   border: 2px solid rgba(3, 30, 87, 0.671) !important;
 }
 
+.event .card.noborder {
+  border: 0px solid rgba(3, 30, 87, 0.671) !important;
+}
+
 .event button {
   width: 40%;
   display:block;
