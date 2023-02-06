@@ -1608,6 +1608,11 @@ section {
   font-weight: 300;
 }
 
+.team-section {
+    padding:  0 0 60px 0;
+    overflow: hidden;
+}
+
 .team4 h1,
 .team4 h2,
 .team4 h3,
@@ -1649,6 +1654,21 @@ section {
   -webkit-transform: translate3d(0px, -5px, 0px);
   transform: translate3d(0px, -5px, 0px);
   color: #316ce8;
+}
+
+.avatar img{
+    height: 11.5vw;
+}
+
+.chairp-avatar img{
+    height: 16vw;
+} 
+
+@media screen and (max-width: 768px){
+    .avatar img,
+    .chairp-avatar img{
+        height: 50vw;
+    }
 }
 
 /*--------------------------------------------------------------
