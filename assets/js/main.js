@@ -287,6 +287,7 @@
         $(" .event .card-body").css({ "background": "#212529", "color": "rgb(105, 105, 108)" });
         $(" .event .card-footer").css("background", "#131920");
         $(" .event  .card").css("background", "#212529");
+        $(" .event  .card.noborder").css("background", "no-repeat");
         $(".event button").css({"background" : "#131920"} );
         $(".event button a").css("color" , "rgb(105, 105, 108)");
         $(" .services .title a").css("color", "#cccccc");
@@ -344,7 +345,7 @@
             $(" .slide img").css("filter", "contrast(60%) brightness(100%)");
             $(" .event .card-body").css({ "background": "#212529", "color": "rgb(105, 105, 108)" });
             $(" .event .card-footer").css("background", "#131920");
-            $(" .event  .card").css("background", "#212529");
+            $(" .event .card").css("background", "#212529");
             $(".event button").css({"background" : "#131920"} );
             $(".event button a").css("color" , "rgb(105, 105, 108)");
             $(" .services .title a").css("color", "#cccccc");
