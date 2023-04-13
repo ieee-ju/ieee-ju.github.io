@@ -1,7 +1,7 @@
 function checkInput() {
   var a = document.getElementById("stage4Input");
   if (a.value == "izgeqg nexpnzrk" || a.value == "IZGEQG NEXPNZRK") {
-    location.href = "/cypher-3331/final.html";
+    location.href = "/cypher-3331/fnKFsd095XyZ.html";
   } else {
     document.getElementById("err").innerHTML = "Wrong";
   }
